@@ -76,14 +76,18 @@ console.log(bBallScore(10, 7));
 
 // Problem #9
 function footballScore(touchDowns, fieldGoals){
-  
+  var scoree = (touchDowns * 7) + (fieldGoals * 3);
+  return scoree;
 }
 
 console.log(footballScore(2, 1));
 
 // Problem #10
-function countLegs(chicken, cows, pigs){
-
+function countLegs(chickLegs, cowLegs, pigLegs){
+  var chickTotal = chickLegs * 2;
+  var cowTotal = cowLegs * 4;
+  var pigTotal = pigLegs * 4;
+  var legTotal = chickTotal + cowTotal + pigTotal;
 }
 
 console.log(countLegs(3, 1, 2));
