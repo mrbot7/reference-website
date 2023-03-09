@@ -11,7 +11,7 @@ function example() {
 function problem1() {
   const travelList = ["France", "Canada", "Japan", "Sweden", "Norway"]
   var name = travelList[2];
-  console.log(travelList);
+  console.log(travelList[1]);
 }
 
 
